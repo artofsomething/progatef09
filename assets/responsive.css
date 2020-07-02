@@ -41,7 +41,7 @@
 }
 
 
-@media (max-width: 670px) {
+@media (max-width: 701px) {
 
     /*.header,
     .second-main,
@@ -52,6 +52,7 @@
         width: 100%;
         display: block;
         margin: 10px 20px 10px 0px;
+        text-align: right;
     }
     #menuControl {
         display: none;
@@ -60,6 +61,7 @@
     #menuControl:checked + label > .header-nav {
         display: block;
         padding: 5px;
+        width: 100%;
     }
     #menuControl:checked + label > ul li{
         display: block;
@@ -77,6 +79,7 @@
     .header{
         width: 100%;
     }
+    
     
     .header-nav{
         display: none;
